@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background-image: url("images/background.jpg");
+    height: 100%;
+    background-size:cover;
+    overflow: hidden;
+}
+
+h1 {
+    position: relative;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    background-color: rgba(17, 117, 162, 0.53);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    display: block;
+    width: fit-content;
+}
+
+.cruz {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    float: right;
+    border-radius: 50%;
+}
+
+#kanban .column .card {
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 1px #0000001c;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 15px;
+}
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgba(240, 240, 240, 0.8);
+    margin: 1%;
+}
+
+.card {
+    background-color: white;
+}
+
+#kanban .column .card:hover {
+    background-color: rgba(17, 117, 162, 0.53);
+    color: white;
+    cursor: pointer;
+}
+
+i {
+    text-align: center;
+    padding-top: 5px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.fa-desktop{
+    background-color: rgb(33, 182, 33);
+}
+
+.fa-cube{
+    background-color: rgb(228, 64, 64);
+}
+
+.fa-mobile-screen{
+    background-color: rgb(230, 184, 34);
+}
